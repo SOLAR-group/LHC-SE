@@ -1,5 +1,9 @@
-#How to run from terminal:
-#Rscript generate_lda_model.R [PATH TO DATASET]
+##############################################
+# Authors: Afnan Al-Subaihin and Vali Tawosi #
+# ############################################
+
+# How to run from terminal:
+# Rscript generate_lda_model.R [PATH TO DATASET]
 args <- commandArgs(trailingOnly=TRUE)
 if (length(args) != 1) {
   stop("Exactly one argument must be supplied: path to data directory.", call.=FALSE)

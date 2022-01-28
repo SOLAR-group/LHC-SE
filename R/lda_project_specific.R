@@ -1,13 +1,16 @@
-#How to run from terminal:
+##############################################
+# Authors: Afnan Al-Subaihin and Vali Tawosi #
+# ############################################
+
+# How to run from terminal:
 # Rscript lda_project_specific.R '../../Tawosi dataset/' '../results/lda_2265.rda' 'MAE' 'LHC-SE'
 
-# args <- commandArgs(trailingOnly=TRUE)
-# if (length(args) != 4) {
-#   stop("Exactly four arguments must be supplied: path to data directory, path to LDA model (.rda), evaluation method (one of 'MAE', 'MdAE', or 'sil'), and LHC variant (one of 'LHC-SE', 'LHC-TC-SE', or 'LHC-TC-TFIDF-SE')",
-#        call.=FALSE)
-# }
-# 
-args <- c('../../Tawosi dataset/ds/', '../results/lda_2265.rda', 'MdAE', 'LHC-SE')
+args <- commandArgs(trailingOnly=TRUE)
+if (length(args) != 4) {
+  stop("Exactly four arguments must be supplied: path to data directory, path to LDA model (.rda), evaluation method (one of 'MAE', 'MdAE', or 'sil'), and LHC variant (one of 'LHC-SE', 'LHC-TC-SE', or 'LHC-TC-TFIDF-SE')",
+       call.=FALSE)
+}
+
 
 data_path <- args[1]
 load(args[2]) #lda_model
