@@ -1,3 +1,7 @@
+##############################################
+# Authors: Afnan Al-Subaihin and Vali Tawosi #
+# ############################################
+
 ############ INCLUDES##############
 library(stringr)
 library(RTextTools)
