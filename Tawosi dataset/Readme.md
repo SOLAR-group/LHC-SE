@@ -7,7 +7,7 @@ This directory consists 138 files (exclusing this Readme file), six files per ea
 These 23 files are collected from 12 open source repositories by Tawosi et al. up untill August, 2020.
 The files named after their project key and slits as "[project key]-[split]" e.g. MESOS-train.csv, which is the set of issues collected from Appache repository Mesos project, and contains the features LHC-SE needs for prediction. The following table shows the list of projects and the repositories where the project was collected from.   
 
-\* <sub>One of the repositories, including three projects, has been removed from the public domain by the owners. Therefore, the data files for those three projects are removed from the Tawosi dataset here.</sub>
+\* <sub>26 projects from 13 repositories are used in this study. However, one of the repositories, including three projects, has been removed from the public domain by the owners of the projects after the stduy was done. Therefore, the data files for those three projects are removed from the Tawosi dataset here.</sub>
 
 
 # Project list
